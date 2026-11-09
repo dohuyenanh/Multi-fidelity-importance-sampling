@@ -31,3 +31,6 @@ pdflatex -interaction=nonstopmode -halt-on-error main.tex
 - `results/grid_convergence.csv`, `time_checks.csv`: numerical-model checks.
 - `results/timings.csv`: stage timings, including pilot work.
 
+## The reference paper of which this report discuss: 
+https://doi.org/10.1016/j.cma.2015.12.002
+
