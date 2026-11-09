@@ -1,0 +1,29 @@
+case,stage,seconds
+Burgers,LF pilot and fit,0.0009406659955857322
+Burgers,HF pilot and fit,1.613219165999908
+Burgers,MC production M=100 all runs,0.32230204199731816
+Burgers,MC production M=500 all runs,1.7404327920085052
+Burgers,MC production M=2000 all runs,6.571022083997377
+Burgers,HF IS production M=100 all runs,0.324556040999596
+Burgers,HF IS production M=500 all runs,1.5694416670012288
+Burgers,HF IS production M=2000 all runs,6.274059249990387
+Burgers,MFIS production M=100 all runs,0.3078379169892287
+Burgers,MFIS production M=500 all runs,1.5141205419931794
+Burgers,MFIS production M=2000 all runs,6.054628334008157
+Burgers,Surrogate IS production M=100 all runs,0.0026348750106990337
+Burgers,Surrogate IS production M=500 all runs,0.0026650830113794655
+Burgers,Surrogate IS production M=2000 all runs,0.004629542003385723
+Sliding block,LF pilot and fit,0.00020941700495313853
+Sliding block,HF pilot and fit,0.00012450000212993473
+Sliding block,MC production M=100 all runs,0.0011589580099098384
+Sliding block,MC production M=500 all runs,0.0013216250081313774
+Sliding block,MC production M=2000 all runs,0.002139791991794482
+Sliding block,HF IS production M=100 all runs,0.0022038750030333176
+Sliding block,HF IS production M=500 all runs,0.002630000002682209
+Sliding block,HF IS production M=2000 all runs,0.004328416995122097
+Sliding block,MFIS production M=100 all runs,0.0021299590007402003
+Sliding block,MFIS production M=500 all runs,0.002468082995619625
+Sliding block,MFIS production M=2000 all runs,0.0038719169970136136
+Sliding block,Surrogate IS production M=100 all runs,0.0022379170113708824
+Sliding block,Surrogate IS production M=500 all runs,0.002697459000046365
+Sliding block,Surrogate IS production M=2000 all runs,0.004819041991140693

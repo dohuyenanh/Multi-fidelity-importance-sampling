@@ -1,0 +1,4 @@
+Burgers residual, monotonic spatial profile and fixed boundaries checked at three inputs.
+All main summary means, RMSEs and coverage recomputed from raw runs.
+Sliding block checked against kinematics, analytic probabilities and one missed crossing.
+PASS

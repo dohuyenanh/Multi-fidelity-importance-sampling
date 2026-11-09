@@ -1,0 +1,65 @@
+{
+  "seed": 20261105,
+  "runs": 40,
+  "M": [
+    100,
+    500,
+    2000
+  ],
+  "pilot_N": 20000,
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "numpy": "2.3.3",
+  "scipy": "1.16.2",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "scope": "Adapted steady-state reproduction of section 4.3; not original POD/time integration.",
+  "burgers_reference": 0.00527120698202841,
+  "surrogate_build_seconds": 0.007939959003124386,
+  "burgers_surrogate_probability": 0.004381688922950924,
+  "burgers_continuum_probability": 0.005573730922071843,
+  "block_reference": 0.019999999999999928,
+  "block_surrogate_probability": 0.016444444444444352,
+  "block_threshold_speeds": [
+    9.8,
+    9.835555555555556
+  ],
+  "proposals": {
+    "Burgers": {
+      "low": {
+        "mean": 0.010172102261228628,
+        "sd": 0.0001160608347946535,
+        "failures": 74
+      },
+      "high": {
+        "mean": 0.010247519198311107,
+        "sd": 0.00013562852725875719,
+        "failures": 97
+      }
+    },
+    "Sliding block": {
+      "low": {
+        "mean": 9.923102002282139,
+        "sd": 0.04715786716452946,
+        "failures": 360
+      },
+      "high": {
+        "mean": 9.899957904462182,
+        "sd": 0.057856437317219754,
+        "failures": 403
+      }
+    }
+  },
+  "refitted_pilot_check": {
+    "case": "Burgers",
+    "method": "MFIS refit",
+    "M": 500,
+    "runs": 40,
+    "mean": 0.005230553954914639,
+    "bias": -4.06530271137703e-05,
+    "rmse": 0.0002760069547543527,
+    "relative_rmse": 0.05236124396089312,
+    "mean_se": 0.0002399489670590114,
+    "coverage": 0.9,
+    "zero_estimates": 0
+  },
+  "total_seconds": 28.932691666996107
+}
